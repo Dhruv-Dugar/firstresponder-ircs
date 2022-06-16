@@ -13,9 +13,7 @@ class AppBarWidget extends StatelessWidget {
     required this.text,
     required this.imagePath,
     this.centerTitle = false,
-    }) : assert(text != null),
-    assert(imagePath != null),
-    super(key: key);
+    }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

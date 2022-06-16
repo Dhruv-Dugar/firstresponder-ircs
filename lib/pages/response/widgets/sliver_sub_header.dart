@@ -10,9 +10,7 @@ class SliverSubHeader extends StatelessWidget {
     Key? key,
     required this.text,
     required this.backgroundColor,
-  }) :assert(text != null),
-  assert(backgroundColor != null),
-  super(key: key);
+  }) :super(key: key);
 
   @override
   Widget build(BuildContext context) {

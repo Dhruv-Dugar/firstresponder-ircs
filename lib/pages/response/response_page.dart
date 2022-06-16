@@ -10,8 +10,7 @@ class ResponsePage extends StatelessWidget {
   final ResponseModel response;
 
   const ResponsePage(this.response, {Key? key})
-      : assert(response != null),
-        super(key: key);
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {

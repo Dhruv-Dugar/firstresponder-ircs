@@ -10,8 +10,7 @@ class ResponseItem extends StatelessWidget {
   const ResponseItem (
       this.response, {
         Key? key,
-  }) : assert(response != null),
-        super(key: key);
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context){
