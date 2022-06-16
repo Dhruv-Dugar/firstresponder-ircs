@@ -1,6 +1,7 @@
-<img src="/readme-assets/logo.png" align="left" height="200px" style="padding-right:20px;"> 
+<img src="/readme-assets/logo.png" align="center" height="200px" style="padding-right:20px;"> 
+<br/>
 # Indian Red Cross Society : Karnataka
-## First Responder 
+## First Responder Application
 
 
 
@@ -10,35 +11,44 @@
 
 - 🌱 Currently working on **developing a backend to contact the emergency contacts using Python/Firebase**
 
+- Future features **make an interface to add first responder situations to the app**
+
 - 🎓 **Project Made With ❤️** during PS - 1
 
 
-## 📫 Developed By
+## 💻 Developed By
 
 <h4> <a href="https://github.com/Dhruv-Dugar" target="blank">Dhruv Dugar</h4>
 
 ## 🖌 Graphic Design By:
 
-<h4> <a href=""> profile 0 </h4>
+<h4> Sagar 
 
 ## 📔 Content Provided By:
 
-<h4> profile 1
-<h4> profile 2
-<h4> profile 3
+<h4> Harsh
+<h4> Arindam Pareek
+<h4> Chandrahas Jandhyala
 
   
 ## 💻 Technologies and Tools
 <p align="left"> 
-	<code> <img height="32" width="32" src="images/react.svg" /> </code>
-	<code> <img height="32" width="32" src="images/nodejs.svg" />  </code>
-	<code> <img height="32" width="32" src="images/js.svg" /> </code>
-	<code> <img height="32" width="32" src="images/java.svg" /> </code>
-	<code> <img height="32" width="32" src="images/python.svg" /> </code>
-	<code> <img height="32" width="32" src="images/c.svg" /> </code>
-	<code> <img height="32" width="32" src="images/flask.svg" /> </code>
-	<code> <img height="32" width="32" src="images/git.svg" /> </code>
-	<code> <img height="32" width="32" src="images/html5.svg" /> </code>
-	<code> <img height="32" width="32" src="images/css3.svg" /> </code>
-	<code> <img height="32" width="32" src="images/linux.svg" /> </code>
+	<code> <img height="32" width="32" src="readme-assets/androidstudio.png" /> </code>
+	<code> <img height="32" width="32" src="readme-assets/flutter.svg" />  </code>
+	<code> <img height="32" width="32" src="readme-assets/dart.png" /> </code>
+	<code> <img height="32" width="32" src="readme-assets/canva.jpeg" /> </code>
+	<code> <img height="32" width="32" src="readme-assets/figma.png" /> </code>
+	<code> <img height="32" width="32" src="readme-assets/py.png" /> </code>
+	<code> <img height="32" width="32" src="readme-assets/firebase.png" /> </code>
+	<code> <img height="32" width="32" src="readme-assets/git.png" /> </code>
+	<code> <img height="32" width="32" src="readme-assets/macos.png" /> </code>
+</p>
+
+
+## Made for 
+
+<p align="left">
+	<code> 
+	<img height="32" width="32" src="readme-assets/android.png" /> </code>
+	<code> <img height="32" width="32" src="readme-assets/ios.png" /> </code>
 </p>
