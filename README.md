@@ -1,9 +1,10 @@
+<p align="center">
 <img src="/readme-assets/logo.png" align="center" height="200px" style="padding-right:20px;"> 
 <br/>
+</p>
+
 # Indian Red Cross Society : Karnataka
 ## First Responder Application
-
-
 
 ## 📖 About the project
 
