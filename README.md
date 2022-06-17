@@ -27,8 +27,8 @@
 
 ## 📔 Content Provided By:
 
-<h4> Harsh
-<h4> Arindam Pareek
+<h4> <a href="https://www.linkedin.com/in/harshvardhan-singh-010195209" target="blank">Harshvardhan Singh
+<h4> <a href="https://github.com/aurin177" target="blank"> Arindam Pareek
 <h4> Chandrahas Jandhyala
 
   
