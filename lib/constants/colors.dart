@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+// contains all the colours which are used in the application overall
+// helps to maintain an overall aesthetic look and not be a clusterfuck in
+// making sure the colors are same overall
+
 class AppColors {
   static const Color lightBlue = Color(0xFFB5E6EB);
   static const Color lightGreen = Color(0xFFD5E8DB);

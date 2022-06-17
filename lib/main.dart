@@ -10,12 +10,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'testing 123',
+      title: 'IRCS: First Responder',
       theme: ThemeData.light(),
       debugShowCheckedModeBanner: false,
+      // home page is defined as constant
+      // in order to reduce the load, and
+      // make the loading faster
       home: const ResponseListPage(),
     );
   }
 }
-
-//eof

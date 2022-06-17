@@ -12,7 +12,7 @@ class ResponseModel {
   final Color itemColor;
 
   const ResponseModel({
-    // all of the required had @ before them, fyi in case of future issues
+    // in order to ensure there are no null values for the files
     required this.title,
     required this.ingredients,
     required this.whereToBuy,

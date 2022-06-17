@@ -5,23 +5,19 @@ import '../../shared_widgets/app_bar_widget.dart';
 import '../response/widgets/pill_widget.dart';
 import '../response/widgets/sliver_sub_header.dart';
 
-
 class ResponsePage extends StatelessWidget {
   final ResponseModel response;
 
-  const ResponsePage(this.response, {Key? key})
-      : super(key: key);
+  const ResponsePage(this.response, {Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: CustomScrollView(
         slivers: <Widget>[
-          AppBarWidget(
-              text: response.title,
-              imagePath: response.mainImagePath
-          ),
-          SliverSubHeader(text: 'Instructions', backgroundColor: response.itemColor),
+          AppBarWidget(text: response.title, imagePath: response.mainImagePath),
+          SliverSubHeader(
+              text: 'Instructions', backgroundColor: response.itemColor),
           SliverToBoxAdapter(
             child: Padding(
               padding: const EdgeInsets.all(15),
@@ -34,8 +30,8 @@ class ResponsePage extends StatelessWidget {
               ),
             ),
           ),
-          // TODO: Sub Header with text title: 'Ingredients'
-          SliverSubHeader(text: 'Symptoms', backgroundColor: response.itemColor),
+          SliverSubHeader(
+              text: 'Symptoms', backgroundColor: response.itemColor),
           SliverPadding(
             padding: const EdgeInsets.all(15),
             sliver: SliverGrid.count(
@@ -45,7 +41,7 @@ class ResponsePage extends StatelessWidget {
 
               //2
 
-              crossAxisCount:3,
+              crossAxisCount: 3,
 
               //3
 
@@ -55,7 +51,6 @@ class ResponsePage extends StatelessWidget {
               children: response.ingredients.map((e) => PillWidget(e)).toList(),
             ),
           ),
-          // TODO: Sub Header with text title: 'Numbers'
           SliverSubHeader(text: 'Numbers', backgroundColor: response.itemColor),
           SliverPadding(
             padding: const EdgeInsets.all(15),
@@ -68,12 +63,14 @@ class ResponsePage extends StatelessWidget {
                 childAspectRatio: 4,
               ),
               delegate: SliverChildBuilderDelegate(
-                  (context, index) => PillWidget(response.details[index]),
+                (context, index) => PillWidget(response.details[index]),
                 childCount: response.details.length,
               ),
             ),
           ),
-          SliverFillRemaining(child: Container(),),
+          SliverFillRemaining(
+            child: Container(),
+          ),
         ],
       ),
     );
