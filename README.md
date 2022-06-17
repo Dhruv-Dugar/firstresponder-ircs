@@ -23,7 +23,7 @@
 
 ## 🖌 Graphic Design By:
 
-<h4> Sagar 
+<h4> <a href="https://github.com/SagarK07" target="blank">Sagar</h4> 
 
 ## 📔 Content Provided By:
 
