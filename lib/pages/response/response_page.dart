@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import '../../constants/colors.dart';
 import '../../models/firstresponse_model.dart';
 import '../../shared_widgets/app_bar_widget.dart';
-import '../response/widgets/pill_widget.dart';
 import '../response/widgets/sliver_sub_header.dart';
 
 class ResponsePage extends StatelessWidget {
@@ -32,42 +31,32 @@ class ResponsePage extends StatelessWidget {
           ),
           SliverSubHeader(
               text: 'Symptoms', backgroundColor: response.itemColor),
-          SliverPadding(
-            padding: const EdgeInsets.all(15),
-            sliver: SliverGrid.count(
-              //1
-              mainAxisSpacing: 15,
-              crossAxisSpacing: 10,
-
-              //2
-
-              crossAxisCount: 3,
-
-              //3
-
-              childAspectRatio: 3,
-
-              //4
-              children: response.ingredients.map((e) => PillWidget(e)).toList(),
-            ),
-          ),
-          SliverSubHeader(text: 'Numbers', backgroundColor: response.itemColor),
-          SliverPadding(
-            padding: const EdgeInsets.all(15),
-            sliver: SliverGrid(
-              //1
-              gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-                maxCrossAxisExtent: 200.0,
-                mainAxisSpacing: 10,
-                crossAxisSpacing: 10,
-                childAspectRatio: 4,
-              ),
-              delegate: SliverChildBuilderDelegate(
-                (context, index) => PillWidget(response.details[index]),
-                childCount: response.details.length,
+          SliverToBoxAdapter(
+            child: Padding(
+              padding: const EdgeInsets.all(15),
+              child: Text(
+                response.symptoms,
+                style: const TextStyle(
+                  color: AppColors.navy,
+                  fontSize: 18,
+                ),
               ),
             ),
           ),
+        SliverSubHeader(
+            text: 'Important Numbers', backgroundColor: response.itemColor),
+        SliverToBoxAdapter(
+          child: Padding(
+            padding: const EdgeInsets.all(15),
+            child: Text(
+              response.phoneNumbers,
+              style: const TextStyle(
+                color: AppColors.navy,
+                fontSize: 18,
+              ),
+            ),
+          ),
+        ),
           SliverFillRemaining(
             child: Container(),
           ),

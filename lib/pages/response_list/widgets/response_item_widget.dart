@@ -47,7 +47,7 @@ class ResponseItem extends StatelessWidget {
                           height: 5,
                         ),
                         Text(
-                          '=> ${response.whereToBuy}',
+                          ' ${response.subHeading}',
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                           textWidthBasis: TextWidthBasis.parent,
@@ -62,7 +62,7 @@ class ResponseItem extends StatelessWidget {
                 Image.network(
                   response.iconPath,
                   fit: BoxFit.fitWidth,
-                  width: 150,
+                  width: 100,
                 ),
               ],
             ),
