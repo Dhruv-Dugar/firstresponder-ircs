@@ -59,11 +59,6 @@ class ResponseItem extends StatelessWidget {
                       ],
                     )
                 ),
-                Image.network(
-                  response.iconPath,
-                  fit: BoxFit.fitWidth,
-                  width: 100,
-                ),
               ],
             ),
           ),
