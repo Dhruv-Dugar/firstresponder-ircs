@@ -30,5 +30,109 @@ class ResponseRepository {
       mainImagePath: AppImagePaths.responder1Image,
       itemColor: AppColors.lightBlue,
     ),
+    ResponseModel(
+      //response situation 1
+      title: 'Heat strokes',
+      phoneNumbers: "Usually easily treatable at home, take rest!",
+      subHeading: 'Condition caused by extreme heat waves, majorily would recommend taking rest and not exerting much',
+      symptoms: """Symptoms of heat stroke include:
+            Confusion, altered mental status, slurred speech
+            Loss of consciousness (coma)
+            Hot, dry skin or profuse sweating
+            Seizures
+            Very high body temperature
+            Fatal if treatment delayed
+      """,
+      instructions:
+      '''
+       In the event of a heat stroke, remove the patient from the heat as soon as possible, remove unnecessary clothes, and cool them using any methods available, including fans.
+        1. Immersing the individual in a chilly tub or shower
+        2. Use a garden hose to spray
+        3. Wet a sponge with cold water.
+        4. Mist with chilly water while fanning
+        5. Apply cold, moist cloths or ice packs to the neck, armpits, and groyne.
+        6. Wrap in cool, moist sheets.
+       ''',
+      iconPath: AppImagePaths.responder1Icon,
+      mainImagePath: AppImagePaths.responder1Image,
+      itemColor: AppColors.lightBlue,
+    ),
+    ResponseModel(
+      //response situation 1
+      title: 'Bites And Stings',
+      phoneNumbers: "Usually easily treatable at home, take rest!",
+      subHeading: 'The bite of an insect, such as a bee or mosquito, which usually causes mild symptoms.',
+      symptoms: """
+      Insect stings seldom have serious repercussions. They can cause extreme discomfort, especially if they are on the lips or in the mouth.
+        1. Remove the sting with tweezers if it is a bee, wasp, or hornet sting. If you don't have tweezers, apply pressure around the sting to push it out.
+        2. To ease itching, wash thoroughly with soap and water and use an antihistamine ointment or lotion.
+        3. Do not scratch the bites.
+      """,
+      instructions:
+      '''
+        1. Wash the wound with water to remove the animal's bacteria-filled saliva.
+        2. Keep the bitten area as low as possible.
+        3. If available, bathe the wound in a dilute solution of potassium permanganate.
+        4. After ensuring that the wound has been sterilised, apply a clean dressing.
+
+
+
+       ''',
+      iconPath: AppImagePaths.responder1Icon,
+      mainImagePath: AppImagePaths.responder1Image,
+      itemColor: AppColors.lightBlue,
+    ),
+    ResponseModel(
+      //response situation 1
+      title: 'Fracture',
+      phoneNumbers: "In the event of a suspected fracture, contact local emergency services and move the patient to the nearest hospital",
+      subHeading: 'A complete or partial break in a bone, caused due to shock, trauma, overuse or weak bones',
+      symptoms: """1. Pain at or around the site of the fracture
+2. Tenderness or pain while applying general pressure to the fractured region
+3. Swelling at the site of the fracture. This swelling frequently makes other indicators of fracture harder to detect, and it is important not to underestimate the severity of the situation.
+4. Limb deformity
+5. Bone irregularity
+
+      """,
+      instructions:
+      '''
+       1. Treat the fracture right away.\n
+           Unless life is in urgent danger from another source, do not move the patient until the wounded area has been immobilised. If circumstances prevent immediate immobilisation, perform a temporary repair to allow the patient to be transferred for a short distance to more suited and safe conditions. Before proceeding with fracture therapy, haemorrhage and serious wounds must be addressed, taking into account the needs of both types of injuries.
+    2. Hold and support the damaged portions simultaneously, making movement impossible. This avoids additional damage and the increase in bleeding that occurs at the site of the fracture. It also protects the skin, blood vessels, nerves, and muscles from being pierced or damaged by shattered bone ends.
+    3. Immobilize the fracture by wrapping it in bandages or using splints.
+Bandages would be sufficient if the patient's body were used as a support. When there is a risk of prolonged or difficult travel before medical treatment is available, more splint support may be necessary. When both lower limbs are shattered, splints are required.
+
+       ''',
+      iconPath: AppImagePaths.responder1Icon,
+      mainImagePath: AppImagePaths.responder1Image,
+      itemColor: AppColors.lightBlue,
+    ),
+    ResponseModel(
+      //response situation 1
+      title: 'Choking',
+      phoneNumbers: "Contact your local emergency services",
+      subHeading: 'Inability to breathe caused by a blockage in the throat or windpipe.',
+      symptoms: """
+      clutching at the throat
+neck or throat pain
+inability to speak, breathe or swallow
+coughing
+wheezing or other unususal breathing sounds
+gagging
+a change in colour (eg. blue lips or red face)
+chest pain
+collapse
+      """,
+      instructions:
+      '''
+      1. Bend the patient's head and shoulders forward to dislodge the respiratory tract blockage.
+      2. Hold a tiny child upside down and beat the back firmly, between the shoulder blades.
+      3. Induce vomiting to assist the sufferer in regurgitating the thing causing the obstruction.
+      4. Administer the Heimlich manoeuvre, by an experienced professional.
+       ''',
+      iconPath: AppImagePaths.responder1Icon,
+      mainImagePath: AppImagePaths.responder1Image,
+      itemColor: AppColors.lightBlue,
+    ),
   ];
 }
