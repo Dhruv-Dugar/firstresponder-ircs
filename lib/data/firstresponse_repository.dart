@@ -15,6 +15,7 @@ class ResponseRepository {
         \nIn the event of a wound, proceed as follows: - 
           \n 1. Posture the patient appropriately, elevating the bleeding area unless it is a shattered limb.
            \n2. Avoid disturbing any blood clots that have developed.
+           \n2. Avoid disturbing any blood clots that have developed.
           \n 3. Expose the wound by removing as few clothes as possible.
           \n 4. Remove any obvious foreign bodies that may be easily pulled out or wiped away with a clean dressing.
         \n   \n 5. Use both direct and indirect pressure to apply and sustain pressure.

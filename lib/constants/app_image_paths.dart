@@ -6,7 +6,7 @@
 // offline in case of a remote place
 
 class AppImagePaths {
-  static const String mainImage = 'lib/assets/appicon.png';
+  static const String mainImage = '../assets/appIcon.png';
   static const String responder1Image = 'lib/assets/appicon.png';
   static const String responder1Icon = 'lib/assets/appicon.png';
   static const String responder2Image = 'lib/assets/appicon.png';
